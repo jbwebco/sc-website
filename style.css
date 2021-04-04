@@ -12,7 +12,10 @@ body {
 #container {
 	width: 70%;
 	margin: auto;
-	padding: 100px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 100px;
 }
 /* navbar */
 .navbar {
@@ -87,13 +90,6 @@ h1 {
 	color: #00A89B;
 }
 /* services */
-#service-section {
-	height: 50vh;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-}
 .service-box {
     background: #f1f1f1;
 	width: 200px;
