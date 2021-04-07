@@ -125,6 +125,47 @@ h4 {
 	align-self: center;
 	padding-top: 10px;
 }
+/* cta */
+.cta {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: auto;
+	margin-top: 100px;
+	width: 75%;
+	min-height: 20vh;
+	background: #f1f1f1;
+	text-transform: capitalize;
+	border-radius: .5rem;
+}
+.text-col {
+	flex: 2;
+	text-align: center;
+}
+.text-col h2 {
+	font-family: 'Poppins', sans-serif;
+}
+.text-col span {
+	color: #00A89B;
+}
+.btn-col {
+	flex: 1;
+	text-align: center;
+}
+.cta-btn {
+	background: #00A89B;
+	color: #f1f1f1;
+	width: 130px;
+	padding: 10px;
+	border-radius: .5rem;
+	text-transform: uppercase;
+	font-size: .8rem;
+	font-weight: bold;
+}
+.cta-btn a {
+	color: #f1f1f1;
+	text-decoration: none;
+}
 
 @media screen and (max-width: 500px) {
 	/* navbar */
@@ -154,5 +195,20 @@ h4 {
 	/* hero */
 	.hero-text {
 		padding-left: 20px;
+	}
+	/* cta */
+	.cta {
+		min-height: 100px;
+		padding: 20px;
+	}
+	.text-col {
+		flex: 100%;
+	}
+	.btn-col {
+		flex: 100%;
+		margin-top: 20px;
+	}
+	.cta-btn {
+		margin: auto;
 	}
 }
