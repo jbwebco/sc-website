@@ -166,6 +166,31 @@ h4 {
 	color: #f1f1f1;
 	text-decoration: none;
 }
+/*footer*/
+.footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #333333;
+	color: #f1f1f1;
+	min-height: 20vh;
+	font-size: 1.1rem;
+	margin-top: 100px;
+}
+.footer-col {
+	flex: 33%;
+	text-align: center;
+	line-height: 25px;
+}
+.copyright {
+	text-align: center;
+	background: #333;
+	color: #f1f1f1;
+	font-size: .8rem;
+	border-top: 1px solid #f1f1f1;
+	padding: 2px 0;
+}
 
 @media screen and (max-width: 500px) {
 	/* navbar */
@@ -210,5 +235,13 @@ h4 {
 	}
 	.cta-btn {
 		margin: auto;
+	}
+	/* footer */
+	.footer {
+		flex-direction: column;
+		padding: 15px 0;
+	}
+	.footer-col {
+		padding: 10px 0;
 	}
 }
